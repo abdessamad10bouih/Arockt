@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Arockt</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="/images/logo.png" alt="Logo" />
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+          <li class="contactBtn"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <div class="one">
+          <div class="content">
+            <h3><img src="/images/icon.png" alt="Icon" /> WELCOME TO AROCKT</h3>
+            <h1>Discover Your Dream <span>Home</span></h1>
+            <p>
+              Where the future of architecture intertwines with sustainability
+              to create transformative spaces, we are pioneers in crafting
+              environments that enhance human interactions and respect our
+              planet.
+            </p>
+            <div class="btnStarted">
+              <a href="#">Get Started -></a>
+            </div>
+          </div>
+        </div>
+        <div class="two">
+          <img
+            id="img2"
+            class="active"
+            src="./images/hero-image2.png"
+            alt="Hero Image 2"
+          />
+          <img id="img1" src="./images/hero-image.png" alt="Hero Image 1" />
+          <img id="img3" src="./images/heroImage3.png" alt="Hero Image 3" />
+        </div>
+      </section>
+      <div class="buttonShare">
+        <img id="btn" src="/images/Button.png" alt="Share Button" />
+        <h2>SHARE</h2>
+        <div class="contentShare">
+          <a href=""><i class="fa-brands fa-facebook fa-lg"></i> Facebook</a>
+          <a href=""><i class="fa-brands fa-instagram fa-lg"></i> Instagram</a>
+          <a href=""><i class="fa-brands fa-twitter fa-lg"></i>Twitter</a>
+          <a href=""><i class="fa-brands fa-linkedin fa-lg"></i>Linkedin</a>
+        </div>
+      </div>
+      <div class="slider">
+        <h2 id="slider1" class="active">01</h2>
+        <h2 id="slider2">02</h2>
+        <h2 id="slider3">03</h2>
+      </div>
+    </header>
+    <section class="ourCollection">
+      <div class="container">
+        <div class="textContent">
+          <div class="textCon">
+            <h3><img src="/images/icon.png" alt="Icon" /> OUR COLLECTION</h3>
+            <h2>
+              Architectural <br />
+              <span>Elegance Meets</span> Innovations
+            </h2>
+            <p>
+              At Arockt, where each project embodies our commitment to
+              innovation, sustainability, and architectural excellence. Dive
+              into our diverse portfolio, showcasing a blend of aesthetics,
+              functionality, and environmentally conscious design across various
+              domains.
+            </p>
+            <a href="">Book Your Dream House -></a>
+          </div>
+        </div>
+        <div class="images">
+          <div class="img image1"></div>
+          <div class="img image2"></div>
+          <div class="img image3"></div>
+        </div>
+        <div class="btnChanger"></div>
+      </div>
+    </section>
+    <section class="aboutUs">
+      <div class="aboutCont">
+        <div class="divOne">
+          <div class="imaage1">
+            <h5>Opulent Haven Mansion</h5>
+            <h6>9876, Boulevard Goldington, TX 12345 US</h6>
+            <img src="./images/aboutImg.png" alt="">
+          </div>
+          <div class="imaage2">
+            <img src="./images/aboutImg2.png" alt="">
+          </div>
+        </div>
+        <div class="divTwo"></div>
+        <div class="divThree"></div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+
+    <!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+  </body>
+</html>
